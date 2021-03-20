@@ -11,7 +11,6 @@ from webargs.flaskparser import use_kwargs
 import json 
 
 app = Flask(__name__)
-api = Api(app)
 swagger = Swagger(app)
 
 class ItemSchema(Schema):
